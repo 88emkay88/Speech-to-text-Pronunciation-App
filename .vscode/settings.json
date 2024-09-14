@@ -1,0 +1,9 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}",
+        "C:/Users/kaymu/OneDrive/Documents/Visual Studio 2022/python activities/Speech-To-Text api"
+    ]
+}
