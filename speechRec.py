@@ -6,8 +6,10 @@ import threading
 import os
 import re
 
-# Set the path to your Google Cloud credentials JSON file
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\Users\kaymu\OneDrive\Documents\Visual Studio 2022\python activities\Speech-To-Text api\speech-to-text-api-435418-fe4f97757a99.json"
+
+#path to credientials 
+credentials_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+print(f'Google credientials path: {credentials_path}')
 
 # Initialize the recognizer and microphone
 recognizer = sr.Recognizer()
